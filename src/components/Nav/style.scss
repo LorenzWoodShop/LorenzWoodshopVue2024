@@ -1,8 +1,10 @@
+@import '@/assets/variables';
+
 nav {
   display: flex;
   justify-content: center;
   padding: 8px 0;
-  background: var(--color-background-dark);
+  background: $color-background-dark;
   width: 100%
 }
 
@@ -13,7 +15,7 @@ ul {
 }
 
 nav li {
-  border-right: 1px solid var(--color-text);
+  border-right: 1px solid $color-text;
   padding: 0 10px;
 }
 
@@ -24,8 +26,8 @@ nav li:last-child {
 a {
   padding: 4px 8px;
   border-radius: 40px;
-  color: var(--color-text);
+  color: $color-text;
   &:hover{
-    background-color: var(--color-background-dark);
+    background-color: $color-background-dark;
   }
 }

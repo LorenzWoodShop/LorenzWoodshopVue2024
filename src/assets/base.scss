@@ -1,43 +1,4 @@
-:root {
-  --primary-brown: #3E2723;
-  --primary-light-brown: #704f3f;
-  --primary-tan: #927268;
-  --text-brown: #18100e;
-  --text-blue: #1a68db;
-  --text-blue-fade: #1a68db40;
-  --black: #333;
-  --white: #eee;
-}
-
-/* semantic color variables and sizes */
-:root {
-  --color-background: var(--white);
-  --color-background-dark: var(--primary-tan);
-  --color-background-darkest: var(--primary-brown);
-
-  --color-border: var(--primary-brown);
-  --color-border-hover: var(--primary-brown);
-
-  --color-heading: var(--text-brown);
-  --color-text: var(--text-brown);
-
-  --section-gap: 160px;
-}
-
-/* dark mode */
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--black);
-    --color-background-soft: var(--primary-brown);
-    --color-background-mute: var(--primary-brown);
-
-    --color-border: var(--primary-tan);
-    --color-border-hover: var(--primary-tan);
-
-    --color-heading: var(--white);
-    --color-text: var(--white);
-  }
-} */
+@import '@/assets/variables';
 
 *,
 *::before,
@@ -46,30 +7,70 @@
   margin: 0;
   padding: 0;
   font-weight: normal;
+  color: $color-text;
 }
 
 body {
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
-  color: var(--color-text);
-  background: var(--color-background);
+  background: $color-background;
   transition:
     color 0.3s,
     background-color 0.3s;
-  font-family:
-    Inter,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
+  font-family: Inter, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: $text-blue;
+  transition: 0.3s;
+
+  &.no-hover:hover {
+    background-color: initial;
+    text-decoration: none;
+  }
+}
+
+a:hover {
+  background-color: $text-blue-fade;
+  text-decoration: underline;
+  border-radius: 20;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: $color-background-darkest;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100dvw;
+  height: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  color: $color-header-text;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
