@@ -13,6 +13,7 @@
     max-width: $content-width;
     width: 100%;
     display: grid;
+    gap: 2rem;
     grid-template-columns: auto 1fr;
     align-items: center;
     justify-content: center;
@@ -27,6 +28,9 @@
       direction: rtl;
 
       @media screen and (max-width: $sm-max) {
+        direction: ltr;
+      }
+      .image-feature__content {
         direction: ltr;
       }
     }

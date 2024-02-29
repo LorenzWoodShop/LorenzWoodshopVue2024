@@ -1,0 +1,9 @@
+@import '@/assets/variables';
+.footer{
+    background-color: $color-background-dark;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: $white;
+}

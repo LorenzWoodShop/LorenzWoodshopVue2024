@@ -30,4 +30,10 @@ a {
   &:hover{
     background-color: $color-background-dark;
   }
+
+  &.social{
+    * {
+      height: 100%;
+    }
+  }
 }

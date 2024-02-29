@@ -17,6 +17,7 @@
           href="https://twitter.com/LorenzWoodShop"
           target="_blank"
           rel="noopener noreferrer"
+          class="social"
         >
           <v-icon name="si-twitter" />
         </a>
@@ -24,8 +25,9 @@
           href="mailto:grayson.lorenz@lorenzwoodshop.com"
           target="_blank"
           rel="noopener noreferrer"
+          class="social"
         >
-          <v-icon name="io-mail" />
+          <v-icon name="io-mail" large/>
         </a>
       </li>
     </ul>
