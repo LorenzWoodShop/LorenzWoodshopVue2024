@@ -3,7 +3,8 @@
 
 #app {
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
   flex-grow: 1;
   justify-content: flex-start;
   align-items: flex-start;
@@ -31,4 +32,8 @@
   &.no-hover:hover {
     background-color: $primary-light-brown;
   }
+}
+
+.container {
+  max-width: 100%;
 }
