@@ -20,12 +20,12 @@
     >
       <span
         class="heading"
-        style="font-size: 3.3rem"
+        style="font-size: 3.3rem; color: black"
         >Lorenz</span
       >
       <span
         class="heading"
-        style="font-size: 2rem"
+        style="font-size: 2rem; color: black"
         >Wood Shop</span
       >
     </div>

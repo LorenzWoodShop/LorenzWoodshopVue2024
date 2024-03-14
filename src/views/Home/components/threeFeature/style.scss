@@ -5,8 +5,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
-  margin: 10rem 0;
-  padding: 0 1.5rem;
+  padding: 2rem 1.5rem;
 
   @media screen and (max-width: $sm-max){
     grid-template-columns: 1fr;

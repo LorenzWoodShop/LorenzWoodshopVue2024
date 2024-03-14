@@ -1,21 +1,21 @@
 <script setup lang="ts">
-const props = defineProps({
-  image: String,
-  title: String,
-  content: String,
-  highlight: {
-    type: Boolean,
-    default: false
-  },
-  reverse: {
-    type: Boolean,
-    default: false
+  const props = defineProps({
+    image: String,
+    title: String,
+    content: String,
+    highlight: {
+      type: Boolean,
+      default: false
+    },
+    reverse: {
+      type: Boolean,
+      default: false
+    }
+  });
+  function getImageUrl() {
+    // This path must be correct for your file
+    return new URL('/gallery/' + props.image, import.meta.url).toString();
   }
-});
-function getImageUrl() {
-  // This path must be correct for your file
-  return new URL(`../../../../assets/img/gallery/large-800px/${props.image}`, import.meta.url);
-}
 </script>
 
 <template>

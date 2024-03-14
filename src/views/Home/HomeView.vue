@@ -4,7 +4,7 @@ import ImageFeature from './components/imageFeature/ImageFeature.vue';
 </script>
 
 <template>
-  <main class="container">
+  <main>
     <ImageFeature
       image="20211224_171105.jpg"
       title="Gaming Accessories"
