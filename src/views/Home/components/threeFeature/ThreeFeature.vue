@@ -15,7 +15,7 @@
       <p>
         I specialize in small wood projects thought have made larger pieces. I make a lot of table top accessories for
         gaming and have enjoyed making pens, pencils, and boxes. I've made furniture for friends and family, and
-        continue to learn to make better and better products.
+        continue to learn to do better and better work.
       </p>
     </div>
     <div class="feature">
@@ -24,7 +24,7 @@
       <p>
         I was playing a lot of D&D so I made a dice tray for my self and folks seemed to like it. I made a bunch of
         them, I sold those at a convention, I needed to start a business. I started this woodshop in 2018 and continued
-        to do work locally. I got better, and now I make trays and pens enough to sell at the local game store.
+        to do work locally. I learned as I worked, and now I make trays and pens to sell at the local game store.
       </p>
     </div>
   </div>

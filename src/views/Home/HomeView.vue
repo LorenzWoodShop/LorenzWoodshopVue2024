@@ -17,19 +17,19 @@ import ImageFeature from './components/imageFeature/ImageFeature.vue';
       highlight
       reverse
     />
+    <ThreeFeature />
     <ImageFeature
       image="20210704_132152.jpg"
       title="Gifts and Cool Stuff"
       content="Shop hammers, wood replica knives, jewelry boxes, and more. All made with the same gusto and care."
+      highlight
+      reverse
     />
     <ImageFeature
       image="20200606_101138.jpg"
       title="Furniture"
       content="Linen chests, bookshelves, baby changing tables, and even a gaming table. I'll make anything you want, so long as it's made from tree parts."
-      highlight
-      reverse
     />
-    <ThreeFeature />
   </main>
 </template>
 

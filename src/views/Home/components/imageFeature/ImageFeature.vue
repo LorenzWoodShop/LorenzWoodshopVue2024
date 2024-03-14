@@ -14,7 +14,7 @@
   });
   function getImageUrl() {
     // This path must be correct for your file
-    return new URL('/gallery/' + props.image, import.meta.url).toString();
+    return new URL('/home-imgs/' + props.image, import.meta.url).toString();
   }
 </script>
 
